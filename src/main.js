@@ -1,7 +1,7 @@
 function play() {
-  var arrRPS = ['Rock', 'Paper', 'Scissors'];
-  var comp = arrRPS[Math.floor(Math.random()*arrRPS.length)];
-  var user = arrRPS[Math.floor(Math.random()*arrRPS.length)];
+  const choices = ['Rock', 'Paper', 'Scissors'];
+  const comp = choices[Math.floor(Math.random()*choices.length)];
+  const user = choices[Math.floor(Math.random()*choices.length)];
   
   function determineWinner(user, comp) {
     if (user === comp) {
